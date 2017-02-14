@@ -1,0 +1,450 @@
+
+		body{
+			margin: 0px;
+		}
+		.container{
+
+			width: 100%;
+			height: 100%;
+		}
+		.topo{
+
+			background-color: #36a9e1;
+    position: relative;
+    width: 102.4%;
+    height: 81px;
+    /* box-shadow: 3px 3px 3px #000; */
+    z-index: 9999999;
+    left: -17px;
+		}
+
+    .topo h1,h2,h3{
+
+      position: absolute;
+      top: 0px;
+      left: 5px;
+      color: white;
+    }
+		.menu{
+
+			height: 100%;
+    width: 80px;
+    position: absolute;
+    left: 0px;
+    background-color: #0f6188;
+    z-index: 9;
+    /* box-shadow: 3px 3px 3px #6c6c6c; */
+    top: 0;
+}
+		}
+
+		.corpo{
+
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0px;
+			background-color: white;
+            top: 0;
+		}
+        .tituloPanel{
+
+            margin-top: 5px;
+    margin-left: 23px;
+    color: #fff;
+    position: absolute;
+    font-size: 18px;
+    padding-top: 20px;
+        }
+		.btnMenu{
+
+			width: 100%;
+			height: 60px;
+			border-bottom: 1px solid white;
+			font-size: 20px;
+			color: white;
+			text-align: center;
+			cursor: pointer;
+			padding-top: 20px;
+		}
+        .btnMenu:hover{
+
+            background-color: #2f80a7;
+
+        }
+		.fontMax{
+
+			font-size: 20px;
+		}
+
+		.chat{
+
+			width: 980px;
+    height: 100%;
+    /* margin: 0 auto; */
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 450px)
+		}
+
+		.chatForm{
+		width: 600px;
+    height: 79%;
+    position: relative;
+    top: 90px;
+    background-color: #fff;
+    margin: 0 auto;
+    /* box-shadow: 2px 2px 2px 2px #666; */
+    left: -1%;
+    border: 1px solid #c6c6c6;
+    left: -1%;
+		}
+		.chatForm .textarea1{
+
+			    width: 98%;
+          margin: 0 auto;
+          height: 35px;
+          position: absolute;
+          bottom: 56px;
+          left: 0px;
+          height: 100px;
+          border-radius: 0px;
+			
+		}
+        .chatForm .textarea2 {
+    width: 95%;
+    margin: 0 auto;
+    height: 35px;
+    position: absolute;
+    bottom: 28px;
+    left: 17px;
+    height: 60px;
+    border-left: 2px solid #36a9e1;
+    border-radius: 0px;
+}
+        .dadosCliente textarea{
+            
+            width: 97%;
+            margin: 0 auto;
+            height: 108px;
+            position: relative !important;
+            top: 2px;
+            
+        }
+
+		.buttonEnviarMSG{
+
+			
+    width: 64px;
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+    height: 56px;
+			
+		}
+        .btnDropDownlist{
+            width: 60px;
+            position: absolute;
+            left: 80px;
+            top: -0px;
+            background-color: #36a9e1;
+            display: block;
+        }
+        
+		.listarMensagens{
+
+		width: 99%;
+    margin: 0 auto;
+    height: 65%;
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 3px;
+    
+    overflow-y: scroll;
+
+		}
+
+.classLeft{
+
+	  float: left;
+    width: 100%;
+    /* background-color: #ccc; */
+    /* padding-bottom: 5px; */
+    /* padding-right: 5px; */
+    /* margin-left: 52% !important; */
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 14px !important;
+    /* border-radius: 7px; */
+    /* box-shadow: 1px 1px 1px #6c6c6c; */
+    /* margin-right: 9px; */
+    margin-top: 10px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.testeDiv{
+
+  position: relative;
+    float: left;
+    background-color: rgba(245, 96, 118, 0.44);
+    width: 52%;
+    padding: 10px;
+    font-size: 14px !important;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px #6c6c6c;
+    margin-left: 9px;
+}
+
+.classRight{
+
+	  float: left;
+    width: 100%;
+    /* background-color: #ccc; */
+    /* padding-bottom: 5px; */
+    /* padding-right: 5px; */
+    /* margin-left: 52% !important; */
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 14px !important;
+    /* border-radius: 7px; */
+    /* box-shadow: 1px 1px 1px #6c6c6c; */
+    /* margin-right: 9px; */
+    margin-top: 10px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+        
+.usuarioOnline{
+    
+   width: 253px;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: -80px;
+    top: 0;
+    text-align: center;
+    
+}
+.titleChat{
+
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #5cb85c;
+    text-align: center;
+    padding-top: 11px;
+}
+        
+        .usuarioOnline ul{
+            
+            display: block;
+            list-style: none;
+            float: left;
+            margin-top: 10px;
+            width: 100%;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: white;
+            /* padding-top: 10px; */
+            /* padding-bottom: 10px; */
+        }
+        .usuarioOnline ul li{
+            
+            line-height: 20px;
+            background-color: #303C4B;
+            border-bottom: 1px solid white;
+            padding: 3px 0 3px 0;
+            cursor: pointer;
+        }
+        .usuarioOnline ul li:hover{
+
+              background-color: rgba(48, 60, 75, 0.79);
+        }
+        
+        .fa-circle{
+            
+            color: green;
+            margin-left: 20px;
+        } 
+        .btn-paleta-diversos{
+
+            position: absolute;
+            bottom: 0;
+            background-color: #e8e8e8;
+            width: 100%;
+
+        }
+        .paleta{
+
+        width: 100%;
+    height: 110px;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    background-color: white;
+    background: #e8e8e8;
+        } 
+
+        .dadosCliente{
+
+          width: 250px;
+    /* height: 100%; */
+    background-color: #FFFFFF;
+    position: relative;
+    float: right;
+    right: -261px;
+    padding-left: 0px;
+    top: 0;
+
+        }
+        .dados{
+
+          position: relative;
+          height: 70%;
+          
+        }
+        .dados input{
+
+          width: 90%;        
+          margin-bottom: 5px;
+          margin-left: 0px;
+          border: none;
+          padding: 5px;
+          background-color: #ECEEF4;
+          font-size: 16px;
+        }
+         .dados input:hover{
+
+          background-color: #fff;
+
+         }
+        .hgroup{
+            
+            width: 100%;
+            height: 40px;
+            background-color: white;
+        }
+        
+        .usuarios{
+            
+            width: 100%;
+            height: 200px;
+            overflow-y: scroll;
+                
+        }
+        .off li{
+            
+            background-color: red !important;
+        }
+        .obs li{
+            
+            background-color: yellow !important;
+        }
+        .green{
+            color: green;
+        }
+        .btnSalvar{
+            
+            position: relative !important;
+            left: 0 !important;
+            /* width: 100px !important; */
+            top: 6px;
+        }
+
+        .horariaChatMSG{
+
+        
+    padding: 3px;
+    border-radius: 5px;
+    /* box-shadow: 3px 3px 3px #666; */
+    color: white;
+    font-size: 11px;
+    float: right;
+    color: #36a9e1;
+    font-weight: 800;
+
+        }
+        
+        a:active ~ li{ 
+            
+            background-color: yellow;
+        }
+        .btnFinalizarConversa{
+
+            background-color: rgba(255, 0, 0, 0.53);
+            color: white;
+            padding: 3px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 3px 3px 3px #c6c6c6;
+
+        }
+        .transferirRetorno{
+
+            background-color:green;
+            color: white;
+            padding: 3px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 3px 3px 3px #c6c6c6;
+
+        }
+        .input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    margin-bottom: 4px !important;
+}
+.btn-administrador{
+  position: absolute;
+  top:25px;
+  right: 25px;
+
+}
+.statusChatAdministrador{
+
+    position: relative;
+    left: -191px;
+    top: 25px !important;
+    float: right;
+}
+.ConversaFinalizada{
+
+  text-align: center;
+  color: red;
+}
+.red{
+  color: red;
+}
+input{
+
+  border: 1px solid #c6c6c6 !important;
+  border-radius: 0px !important;
+}
+.nomeMsg{
+
+  color: #36a9e1;
+  font-weight: 700;
+}
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: #fff;
+}
+::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+scrollbar-base-color: #fff;
+scrollbar-base-color: #fff;
+scrollbar-3dlight-color: #fff;
+scrollbar-highlight-color: #fff;
+scrollbar-track-color: #fff;
+scrollbar-arrow-color: white;
+scrollbar-shadow-color: #fff;
+scrollbar-dark-shadow-color: #fff;

@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html lang="pt-br" ng-app="app"> 
+    <head> 
+        <title>CHAT</title>         
+        <meta charset="UTF-8"> 
+        <!--Import Google Icon Font-->         
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"> 
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet"> 
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+        <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,700' rel='stylesheet' type='text/css'> 
+        <!--Import materialize.css-->         
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"> 
+        <!--Let browser know website is optimized for mobile-->         
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <link rel="stylesheet" href="css/estilo.css"> 
+        <link rel="stylesheet" href="css/animate.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>         
+        <!-- Firebase -->         
+        <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>         
+        <!-- AngularFire -->         
+        <script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>    
+        
+        <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+        <script src="js/smoothscroll.js" type="text/javascript"></script>
+
+         
+    </head>     
+    <body ng-controller="appCtrl">
+        
+       
+        <div class="online" id="onlineID">
+            <!--<p>{{statusChat[0].nome}} <br>{{statusChat[0].status}}</p>
+    <p>{{statusChat[1].nome}} <br>{{statusChat[1].status}} </p>
+    <p ng-model="ADM1">{{statusChat[2].nome}} <br>{{statusChat[2].status}} </p>-->             
+            <div class="chat" id="chatID" ng-click="ativaChat()"> 
+                <div class="chatIcone">
+                    <i class="material-icons medium">chat</i>
+                </div>                 
+                <div class="chatTXT1" id="chatTXT1" ng-click="chatTXT1CHAT()">No momento não estamos online 
+                </div>                 
+                <div class="statuschat chatStatus1" id="statuschat"></div>                 
+                <div class="batePapo" id="batePapoID"> 
+                    <i class="fa fa-times btnExitChat" id="btnExitChat" ng-click="btnExitChat()"></i>
+                    <div class="batePapoTopo">Chat</div>                     
+                    <div class="NomeClienteChat">
+                        <input type="text" placeholder="Digite seu nome">
+                    </div>                     
+                    <div class="corpoMensagem" id="corpoMensagemID"> 
+                        <p class="classLeft msgFire">Olá, seja bem vindo ao CÃOEGATOSAÚDE, no que podemos ajudar?</p>
+                        <div ng-repeat="msgBd in messages">
+                            
+                            <p class="{{msgBd.formato}} msgFire">{{msgBd.texto}}<span class="dataCoversa">{{msgBd.data}}</span></p>
+                            
+                        </div>                         
+                    </div>                     
+                    <div class="batePapoCaixaMensagem">
+                        <textarea placeholder="Digite sua mensagem" ng-model="msg"></textarea>
+                    </div>                     
+                    <div class="batePapoBtn">
+                        <a class="waves-effect waves-light btn" ng-click="addMessage()"><i class="fa fa-paper-plane" style="position: relative;left: -13px;color: white;"></i></a>
+                    </div>                     
+                </div>                 
+                <div class="coletaDadosCliente" id="coletaDadosCliente"> 
+                    <input type="text" placeholder="Digite seu nome" ng-model="nome"> 
+                    <input type="text" placeholder="Digite seu Email" ng-model="email2"> 
+                    <input type="text" placeholder="Digite seu Telefone" ng-model="telefone"> 
+                    <button class="btnEnviarDadosCliChat" ng-click="enviarDadosCli()">Continuar</button>
+                    <p>Campos não obrigatorio<p>
+                </div>                 
+            </div>             
+            <div class="ligar"> 
+                <div>
+                    <i class="material-icons medium">phone</i>
+                </div>                 
+                <a href="#sobre" class="smoothScroll"><div>Ligamos para você</div></a>                
+            </div>             
+        </div>         
+              
+                
+                
+               
+        <!--Import jQuery before materialize.js-->         
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>         
+        <script>
+      	$(".button-collapse").sideNav();
+      </script>         
+               
+        <script src="js/controller/homeCtrl.js"></script>         
+        <script src="js/ativaModal.js"></script>
+
+        
+        <audio id="audio">
+        <source src="DoorBell-SoundBible.com-1986366504.mp3" type="audio/mp3" />
+</audio>
+    </body>     
+    <script>
+        
+    </script>
+</html>

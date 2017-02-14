@@ -1,0 +1,1015 @@
+.header{
+
+	width: 100%;
+    height: 100%;
+    /* background-color: rgba(43, 195, 167, 1); */
+    background-image: url(../images/skan_0046.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 0 !important;
+}
+.menuTopo{
+	position: absolute;
+    width: 100%;
+    z-index: 9999999;
+    top: 793px;
+    display: block;
+}
+
+nav{
+	background-color: rgba(255, 255, 255, 1) !important;
+	border-bottom: 3px rgb(78, 193, 234) solid;
+		
+
+
+}
+body{
+
+	font-family: 'PT Serif', serif !important;
+}
+span{
+
+	color: rgba(64, 64, 64, 1) !important;
+
+}
+.card-content{
+	text-align: center !important;
+}
+p{
+	color: rgba(64, 64, 64, 1) !important;
+	text-align: left !important;
+	font-family: 'PT Serif', serif !important;
+
+}
+li{
+	color: rgba(64, 64, 64, 1);
+}
+a{
+	color: rgba(64, 64, 64, 1) !important;
+}
+h1,h2,h3,h4,h5,h6{
+
+	font-family: 'PT Serif', serif;
+}
+.h2_topo{
+
+	text-align: center;
+    position: relative;
+    top: 100px;
+    color: white !important;
+    font-weight: bolder;
+    font-size: 85px;
+    
+    
+}
+.topo_info{
+
+	width: 100%;
+	height: 43px;
+	background-color: white;
+	border-bottom: 3px solid #F56076;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999999;
+}
+.contato_topo{
+
+	width: 70px;
+	height: 36px;
+	background-color: #F56076;
+	position: absolute;
+	top: 43px;
+	right: 72px;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	cursor: pointer;
+	text-align: center;
+	color: white;
+	z-index: 9999;
+}
+
+.ativa_todos_telefones .todos_telefones{
+
+	top: 43px !important;
+}
+
+.setaBaixo{
+
+	transition: all infinite;
+}
+
+.todos_telefones ul{
+
+	position: relative;
+    margin: 0 auto;
+    text-align: center;
+    top: 61px;
+}
+.todos_telefones ul li{
+
+
+	padding: 5px;
+	border-bottom: 2px solid #F56076;
+	background-color: #EEE;
+}
+
+.todos_telefones{
+
+	width: 200px;
+	height: 205px;
+	background-color: white;
+	position: absolute;
+	right: 0;
+	top: -343px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	transition: all 500ms ease;
+}
+.corpo_contato{
+  max-width: 1000px;
+  height: 43px;
+  margin: 0 auto;
+  position: relative;
+  background-color: transparent; 
+
+}
+.opacidade{
+    
+    background-color: rgba(0,0,0,.3);
+    height: 807px;
+    position: relative;
+    top: -19px;
+}
+.btn-topo{
+	position: absolute;
+    margin: 0 auto;
+    left: calc(50% - 140px);
+    top: 589px;
+    width: 300px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: #4EC1EA !important;
+    color: white !important;
+    padding-top: 16px;
+
+
+}
+.online{
+	width: 100%;
+	height: 40px;
+	background-color: #F2F2F2;
+	position: fixed;
+	bottom: 0;
+	z-index: 999999999999999;
+	display: block;
+	
+	
+}
+.dataCoversa{
+    
+    font-size: 10px;
+    position: absolute;
+    top: 15px;
+    left: -57px;
+}
+i.medium {
+    font-size: 2rem !important;
+}
+
+.online p{
+	float: left;
+	font-family: 'PT Serif', serif;
+	position: relative;
+	left: calc(50% - 400px);
+	top: 10px;
+	font-size: 18px;
+
+}
+.ligar{
+	width: 280px;
+	margin-left: 5%;
+	height: 80px;
+	background-color: rgb(245, 96, 118) !important;
+	float: right;
+	margin-right: 2px;
+	cursor: pointer;
+	transition:all 500ms ease;
+}
+.ligar:hover{
+
+	background-color: rgba(245, 96, 118,.5) !important;
+	
+
+}
+.batePapo{
+
+	width: 280px;
+	height: 380px;
+	position: absolute;
+	top: -380px;
+	background-color: white;
+	border: solid 1px #000;
+    display: none;
+	
+}
+.coletaDadosCliente{
+
+	width: 280px;
+    height: 380px;
+    position: absolute;
+    top: -380px;
+    background-color: white;
+    border: solid 1px #000;
+    z-index: 9999999;
+    display: none;
+    padding: 15px;
+
+
+}
+
+.coletaDadosCliente p{
+    
+    left: 0 !important;
+    font-size: 20px !important;
+    top: 41px;
+    left: 20px !important;
+}
+
+.batePapoTopo{
+	width: 100%;
+	height: 20px;
+	background-color:  rgba(64, 64, 64, 1) !important;
+	color: white !important;
+	text-align: center;
+	position: relative;
+	top: 0px !important;
+}
+.batePapoCaixaMensagem{
+
+	width: 213px;
+    height: 39px;
+    position: absolute !important;
+    top: 341px !important;
+    left: 0px !important;
+    color: #666 !important;
+
+}
+.batePapoCaixaMensagem textarea {
+    width: 100% !important;
+    height: 2.4rem !important;
+    background-color: transparent !important;
+}
+.NomeClienteChat{
+	width: 278px;
+    height: 40px;
+    position: relative;
+    background-color: #6c6c6c;
+    top: 0px !important;
+    border-bottom: 1px solid #666 !important;
+    left: 0px !important;
+    display: none;
+}
+.NomeClienteChat input{
+
+	border: 0px !important;
+}
+.corpoMensagem{
+
+	width: 278px;
+    height: 313px;
+    background-color: white;
+    overflow-y: scroll;
+    margin-top: 6px;
+}
+
+.batePapoBtn{
+	width: 60px;
+    position: absolute !important;
+    top: 341px !important;
+    color: #666 !important;
+    left: 215px !important;
+    color: white !important;
+}
+.batePapoBtn a{
+	width: 60px !important;
+}
+
+.chat{
+	width: 280px;
+	height: 80px;
+	background-color: rgb(78, 193, 234) !important;
+	float: right;
+	margin-right: 10px;
+	position: relative;
+	cursor: pointer;
+	transition:all 500ms ease;
+}
+.chat:hover{
+
+	background-color: rgba(78, 193, 234, .5) !important;
+
+}
+.chatIcone{
+
+	float: left;
+	color: white;
+	position: relative;
+	top: 10px;
+}
+.chatTXT1{
+
+	float: left;
+	color: white;
+	position: relative;
+	top: 12px;
+	margin-left: 8px;
+}
+.chatStatus1{
+
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border-radius: 10px;
+
+}
+.ligar div:nth-child(1){
+
+	float: left;
+	color: white;
+	position: relative;
+	 top: 7px;
+    left: 45px;
+}
+.ligar div:nth-child(2){
+
+	float: left;
+	color: white;
+	position: relative;
+	top: 12px;
+    left: 51px;
+}
+.borderT{
+
+	border-top: dashed 1px #666;
+}
+
+.card-action span:nth-child(1){
+	width: 100%;
+    float: left;
+    text-align: center;
+}
+.card-action span:nth-child(2){
+
+	float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.card-action span:nth-child(3){
+
+	
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    background-color: #26A69A;
+    position: relative;
+    left: calc(50% - 60px);
+    border-radius: 7px;
+    color: white !important;
+    
+}
+.PrecoPlanos{
+    
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: dashed 1px #666;
+    margin-bottom: 60px;
+    position: relative;
+    /* height: 600px; */
+    float: left;
+    /* max-width: 1000px; */
+    margin: 0 auto;
+}
+.planos{
+	width: 100%;
+}
+.planos div:nth-child(1){
+	
+	float: left;
+}
+.planos div:nth-child(2){
+
+	width: 80%;
+	float: left;
+}
+footer{
+	background-color: #4EC1EA !important;
+}
+.subtitulo1{
+	font-size: 15px;
+	color: #8DC63F !important;
+	
+}
+.subtitulo2{
+	font-size: 15px;
+	color: #8560A8 !important;
+	
+}
+.subtitulo3{
+	font-size: 15px;
+	color: #F7941D !important;
+	
+}
+.subtitulo4{
+	font-size: 15px;
+	color: #4384C1 !important;
+	
+}
+
+.corVerde{color:#8DC63F !important;}
+.corRoxa{color:#8560A8 !important;}
+.corLaranja{color: #F7941D !important;}
+.corAzul{color: #4384C1 !important;}
+.fontMaior{font-size: 44px;margin-top: 10px;margin-bottom: 10px;}
+.tbP1{
+
+	background-color: #8DC63F !important;
+	cursor: pointer;
+}
+.tbP2{
+
+	background-color: #8560A8 !important;
+	cursor: pointer;
+}
+.tbP3{
+
+	background-color: #F7941D !important;
+	cursor: pointer;
+}
+.tbP4{
+
+	background-color: #4384C1 !important;
+	cursor: pointer;
+}
+.fontMAX{
+    
+    font-size: 140px;
+    position: absolute;
+    left: calc(50% - 70px);
+    color: #F56076 !important;
+    top: 439px;
+}
+.fontMAX1{
+    
+    font-size: 30px;
+    position: absolute;
+    left: calc(50% - 7px);
+    color: #fff !important;
+    top: 492px;
+}
+blockquote {
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #fff !important;
+}
+.btPetclub{
+    
+    position: relative !important;
+    left: calc(50% - 250px) !important;
+    top: 50px;
+    color: white !important;
+}
+.logoHealth{
+    
+    position: relative;
+    left: calc(50% - 148px);
+}
+.light-green.lighten-5 {
+    background-color: #FFFFFF !important;
+}
+
+.btn, .btn-large {
+    
+    background-color: #4EC1EA !important;
+    
+}
+.msgFire{
+
+	float: none !important;
+    font-family: 'PT Serif', serif;
+    position: relative;
+    left: 0 !important;
+    top: 0 !important;
+    font-size: 18px;
+}
+
+
+.classLeft{
+
+	float: left;
+    background-color: #F56076;
+    width: 66%;
+    padding: 10px;
+    font-size: 14px !important;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px #6c6c6c;
+    margin-left: 9px;
+    color: white !important;
+}
+
+.classLeft span{
+
+	left: 177px !important;
+    display: inline-table;
+}
+
+.classRight{
+
+	float: right;
+    background-color: #4EC1EA;
+    /* padding-bottom: 5px; */
+    /* padding-right: 5px; */
+    margin-left: 52% !important;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 14px !important;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px #6c6c6c;
+    margin-right: 9px;
+}
+
+.btnExitChat{
+    
+    position: absolute;
+    top: -15px;
+    left: -13px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    z-index: 999;
+    
+}
+
+.modal_topo{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,.8);
+    width: 100%;
+    height: 100%;
+    z-index: 9999999999;
+    display: none;
+    
+}
+.popup_plano1{
+
+	width: 78%;
+	position: relative;
+	margin: 0 auto;
+	display: none;
+	background-color: white;
+	top: 200px;
+	border-radius: 0px;
+	border-bottom: 3px solid #8DC63F !important;
+
+}
+.popup_plano2{
+
+	width: 78%;
+	position: relative;
+	margin: 0 auto;
+	display: none;
+	background-color: white;
+	top: 200px;
+	border-radius: 0px;
+	border-bottom: 3px solid #8560A8 !important;
+}
+.popup_plano3{
+
+	width: 78%;
+	position: relative;
+	margin: 0 auto;
+	display: none;
+	background-color: white;
+	top: 200px;
+	border-radius: 0px;
+	border-bottom: 3px solid #F7941D !important;
+}
+.popup_plano4{
+
+	width: 78%;
+	position: relative;
+	margin: 0 auto;
+	display: none;
+	background-color: white;
+	top: 200px;
+	border-radius: 0px;
+	border-bottom: 3px solid #4384C1 !important;
+}
+.rodape_popup1{
+
+	width: 100%;
+	position: relative;
+	margin: 0 block;
+	background-color: white;
+	padding: 0px;
+	padding: 2px;
+	top: 60px;
+	border-bottom: 3px solid #8DC63F !important;
+}
+.rodape_popup2{
+
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	background-color: white;
+	padding: 0px;
+	padding: 2px;
+	top: 60px;
+	border-bottom: 3px solid #8560A8 !important;
+}
+.rodape_popup3{
+
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	background-color: white;
+	padding: 0px;
+	padding: 2px;
+	top: 60px;
+	border-bottom: 3px solid #F7941D !important;
+}
+.rodape_popup4{
+
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	background-color: white;
+	padding: 0px;
+	padding: 2px;
+	top: 60px;
+	border-bottom: 3px solid #4384C1 !important;
+}
+.btnExitpopup1{
+
+	position: absolute;
+	top: -18px;
+	right: -18px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid #8DC63F !important;
+	cursor: pointer;
+}
+.btnExitpopup2{
+
+	position: absolute;
+	top: -18px;
+	right: -18px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid #8560A8 !important;
+	cursor: pointer;
+}
+.btnExitpopup3{
+
+	position: absolute;
+	top: -18px;
+	right: -18px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid #F7941D !important;
+	cursor: pointer;
+}
+.btnExitpopup4{
+
+	position: absolute;
+	top: -18px;
+	right: -18px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+	border: 2px solid #4384C1 !important;
+	cursor: pointer;
+}
+
+
+.card {
+    position: relative;
+    margin: 0.5rem 0 1rem 0;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    height: 650px !important;
+}
+label{
+    
+    margin-top: 25px;
+}
+
+.img_planos_form{
+
+	width: 50%;
+	
+}
+
+.form_peca_plano{
+
+	width: 50%;
+	float: right;
+	text-align: left;
+	
+}
+.form_peca_plano h4{
+
+	text-align: center !important;
+}
+select{
+ 
+ display: block !important;
+
+}
+
+.card .card-content {
+    padding: 20px;
+    border-radius: 0 0 2px 2px;
+    height: 460px !important;
+}
+
+.senior{
+    
+    
+    
+    
+}
+button:hover{
+    
+    color: white !important;
+}
+.LogoTxt{
+    
+    color: #4EC1EA !important;
+    position: absolute;
+}
+.corRosa{
+    
+    color: #F56076 !important;
+}
+.e{
+    color: white !important;
+    position: absolute;
+    left: 50px;
+    top: -2px;
+    font-size: 16px;
+}
+.e1{
+    
+    color: #F56076 !important;
+    position: absolute;
+    left: 50px;
+    top: -2px;
+    font-size: 16px;
+    
+}
+.credenciados{
+    
+    width: 100%;
+    height: 300px;
+    text-align: center !important;
+}
+.credenciados p{
+    
+    text-align: center !important;
+}
+.credenciados i{
+    
+    color: #4EC1EA;
+    font-size: 100px;
+    
+}
+.credenciados a{
+    
+    position: relative !important;
+    left: 0 !important;
+    top: 20px;
+    color: white !important;
+    
+}
+.ContatoTXT{
+    
+    width: 45%;
+    float: left;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 86px;
+    position: relative;
+}
+.BTNCONTATO{
+    position: relative;
+    left:0;
+    top: 21px;
+}
+.formContato{
+    
+    width:50%;
+    float:left;
+    padding-right: 5%;
+    border-right: 2px solid #F46076;
+}
+.IMGFORM{
+    
+    position: absolute;
+    float: right;
+    top: 583px;
+    right: 0;
+}
+
+.IMGTOPO{
+    position: absolute;
+    right: 80px;
+    top: 395px;
+    
+}
+.Modal_agradece{
+    
+    
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 99999999999999999999;
+    display: none;
+    
+}
+
+.Modal_agradece_Janela{
+    
+    width: 580px;
+    height: 200px;
+    background-color: white;
+    border-radius: 7px;
+    position: relative;
+    top: calc(50% - 150px);
+    left: calc(50% - 250px);
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 30px;
+    
+}
+.Modal_agradece_1{
+    
+    position: absolute;
+    font-size: 90px;
+    top: -50px;
+    left: -50px;
+    color: #F46076;
+}
+.Modal_agradece_2{
+    
+    position: absolute;
+    font-size: 90px;
+    bottom: -50px;
+    right: -50px;
+    color: #4EC1EA;
+}
+.Modal_agradece_Janela p{
+    
+    
+    
+}
+hr {
+    margin-top: 7px !important;
+    margin-bottom: 7px !important;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.btnEnviarDadosCliChat{
+
+	width: 100%;
+    background: #4EC1EA;
+    border: none;
+    color: white;
+    font-size: 30px;
+    box-shadow: 2px 2px 2px #c6c6c6;
+}
+
+@media screen and (max-width: 768px){
+    
+    .h2_topo{
+        
+        font-size: 42px !important;
+        
+    } 
+    
+    .fontMAX {
+    font-size: 140px;
+    position: absolute;
+    left: calc(50% - 70px);
+    color: #F56076 !important;
+    top: 285px;
+}
+    
+    .fontMAX1 {
+    font-size: 30px;
+    position: absolute;
+    left: calc(50% - 7px);
+    color: #fff !important;
+    top: 338px;
+}
+    
+    .btn-topo {
+    position: absolute;
+    margin: 0 auto;
+    left: calc(50% - 149px);
+    top: 465px;
+    width: 300px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: #4EC1EA !important;
+    color: white !important;
+    padding-top: 16px;
+}
+    
+    .img_planos_form {
+    width: 100%;
+}
+    
+    .form_peca_plano {
+    width: 100%;
+    float: right;
+    text-align: left;
+}
+    
+    .formContato {
+    width: 100%;
+    float: left;
+    padding-right: 5%;
+    border-right: 2px solid #F46076;
+}
+    
+    .ContatoTXT {
+    width: 100%;
+    float: left;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 80px;
+    position: relative;
+}
+    .e {
+    color: white !important;
+    position: absolute;
+    left: 47px;
+    top: -2px;
+    font-size: 16px;
+}
+    
+    .IMGTOPO {
+    position: absolute;
+    right: 80px;
+    top: 559px;
+    width: 200px;
+}
+    
+    hr{
+        
+        margin-top: 2px !important;
+        margin-bottom: 2px !important;
+    }
+    .card .card-content .card-title {
+    line-height: 29px !important;
+}
+    .IMGFORM {
+    position: absolute;
+    float: right;
+    top: 268px !important;
+    right: 0;
+}
+    .chat {
+    width: 280px;
+    height: 80px;
+    background-color: rgb(78, 193, 234) !important;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+}

@@ -1,0 +1,6 @@
+<div class="list-group" style="height: 415px;border: 1px solid #c6c6c6;position: relative;">
+                    <a href="#" class="list-group-item  list-group-item-danger">
+                      Cliente Finalizado
+                    </a>
+                    <a href="#" class="list-group-item" ng-repeat="usersFinalizado in clientesFinalizados" ng-click="trocaFina(this)">Cliente - {{usersFinalizado.sala}} <buttom class="btn btn-default" ng-click="excluirDoSistema('finalizado',usersFinalizado.sala)"><i class="fa fa-trash-o fa-lg"></i></buttom></a>
+               </div>
